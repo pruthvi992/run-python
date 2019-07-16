@@ -28,4 +28,3 @@ if __name__=="__main__":
         roles = i.readlines()
         for i in roles:
             write_file(i.split('\n')[0])
-            commands.val
