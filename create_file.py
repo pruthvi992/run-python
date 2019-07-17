@@ -24,7 +24,7 @@ def write_file(value):
 
 if __name__=="__main__":
     # content in the file to be written
-    with open('roles.yml', 'r+') as i:
+    with open('roles.list', 'r+') as i:
         roles = i.readlines()
         for i in roles:
             write_file(i.split('\n')[0])
